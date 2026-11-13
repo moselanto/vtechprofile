@@ -192,3 +192,20 @@ img{display:block;max-width:100%}
 /* v7 logo without background */
 .brand{background:none!important;padding:0!important}
 .brand img{height:11mm;width:auto}
+
+/* v7 featured projects */
+.fp{position:absolute;top:0;bottom:0;right:0;width:47%;display:grid;grid-template-rows:1fr 38mm;gap:2.5mm;z-index:1}
+.fp .main{overflow:hidden}.fp .main img{width:100%;height:100%;object-fit:cover}
+.fp .th{display:grid;grid-template-columns:1fr 1fr;gap:2.5mm}.fp .th img{width:100%;height:38mm;object-fit:cover}
+.fpc{position:relative;z-index:2;width:49%}
+.fpc .h2{font-size:25pt}
+.fpc .sub{font:700 10.5pt Manrope,sans-serif;color:var(--g);margin-top:2mm}
+.csr{display:grid;grid-template-columns:repeat(3,1fr);gap:4mm;margin:3mm 0}
+.csr b{display:block;font:800 7.6pt Manrope,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--y);margin-bottom:1mm}
+.csr p{font-size:9.6pt;color:#d6d6d6;margin:0;line-height:1.45}
+.tech{list-style:none;padding:0;margin:3mm 0 0;display:grid;grid-template-columns:1fr 1fr;gap:1.4mm 5mm}
+.tech li{font-size:9.4pt;padding-left:5mm;position:relative;color:#eee}
+.tech li:before{content:"";position:absolute;left:0;top:1.6mm;width:2.4mm;height:2.4mm;background:var(--pg)}
+.case .im{height:66mm}
+.fp .th1{grid-template-columns:1fr}
+.fp1{grid-template-rows:1fr}

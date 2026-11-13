@@ -1,5 +1,10 @@
 # Changelog
 
+## 7.0.0 - 13 Nov 2026
+- Owner confirmed these are VTECH projects and that VTECH has authority to use the photos: Featured Project 01 West Nairobi School, 02 CITAM Buruburu, 03 Sarit Expo Centre; case studies PCEA Kahawa Farmers Church, All Saints Cathedral, COVO NBO. Photos in assets/img/projects/.
+- Removed the county assembly featured project, the generic case studies and all "to be supplied" placeholders.
+- Houses of worship list updated; audio pillar case in point is now CITAM Buruburu. 17 pages.
+
 ## 6.0.0 - 13 Nov 2026
 - Official VTech Audio Kenya logos: stacked black logo on a white tile on every page; large white stacked logo on cover and closing page (white and purple versions generated from the one-colour file).
 - Brands page now shows 15 manufacturer logos: dB Technologies, NEXO, Bose, Shure, Allen & Heath, Midas, Biamp, FANE, Behringer, ChamSys, Sommer Cable, Rockfon, Barrisol, Asona, Aid.
