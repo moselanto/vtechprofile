@@ -209,3 +209,29 @@ img{display:block;max-width:100%}
 .case .im{height:66mm}
 .fp .th1{grid-template-columns:1fr}
 .fp1{grid-template-rows:1fr}
+
+/* v7.1 page 5: VTECH difference */
+.dpanel{position:absolute;left:0;top:0;bottom:0;width:36%;overflow:hidden;z-index:1}
+.dpanel>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.dpanel:after{content:"";position:absolute;inset:0;background:linear-gradient(160deg,rgba(128,0,138,.88) 0%,rgba(74,3,82,.94) 55%,rgba(20,0,26,.97) 100%)}
+.dpanel__in{position:relative;z-index:2;padding:9mm 12mm 0 16mm}
+.dpanel__in .eyebrow:before{background:#fff}
+.dlead{font-size:12pt;color:#f1dff5;line-height:1.55;margin-top:5mm}
+.dtrio{display:grid;grid-template-columns:repeat(3,1fr);margin-top:9mm;border-top:1px solid rgba(255,255,255,.25)}
+.dtrio div{padding-top:4mm}
+.dtrio b{display:block;font:800 30pt Manrope,sans-serif;color:#fff;line-height:1}
+.dtrio span{font:700 8.5pt Manrope,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#e3c4ea}
+.dsteps{position:absolute;left:40%;right:16mm;top:24mm;z-index:2}
+.dphase{display:flex;align-items:center;gap:3mm;margin-bottom:4mm}
+.dphase span{font:800 8pt Manrope,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#fff;background:var(--pg);padding:1.3mm 3mm}
+.dphase b{font:800 15pt Manrope,sans-serif;color:#0A0A0A;text-transform:uppercase;letter-spacing:-.01em}
+.dphase i{flex:1;height:1px;background:#d9b3e1}
+.dgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:3.5mm}
+.dx{background:#fff;border:1px solid #ebe3ee;border-top:3px solid var(--p);padding:5mm 4.5mm 5mm;min-height:52mm;box-shadow:0 6px 18px rgba(74,3,82,.07)}
+.dn{display:block;font:800 30pt Manrope,sans-serif;line-height:1;color:transparent;-webkit-text-stroke:1.2px #80008A;margin-bottom:3mm;background:linear-gradient(135deg,#A51DB6,#4A0352);-webkit-background-clip:text}
+.dx h3{font-size:14pt;color:#0A0A0A;margin-bottom:2mm}
+.dx p{font-size:10.6pt;color:#4a4a4a;margin:0;line-height:1.45}
+@media screen and (max-width:1300px){.dpanel{position:relative;width:auto;margin:-24mm -6mm 6mm}.dpanel__in{padding:12mm 6mm 10mm}.dsteps{position:static}.dgrid{grid-template-columns:1fr 1fr}}
+
+.dn{color:#80008A!important;background:none!important;-webkit-text-stroke:0!important;font-size:26pt!important}
+.dphase b{white-space:nowrap}
