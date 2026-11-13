@@ -1,7 +1,7 @@
 /* VTECH Company Profile - one source for web and print (A4). Brand: vtechaudio.co.ke STYLE-GUIDE */
 @font-face{font-family:"Manrope";src:url("../fonts/manrope-var.woff2") format("woff2");font-weight:200 800;font-display:swap}
 @font-face{font-family:"Inter";src:url("../fonts/inter-var.woff2") format("woff2");font-weight:100 900;font-display:swap}
-:root{--blue:#0A4FA3;--blue-dark:#083C7C;--tint:#E7F0FA;--ink:#111111;--amber:#FFB400;--amber-soft:#FFF4D6;--surface:#F7F9FC;--line:#E4E9F0;--muted:#5B6472}
+:root{--blue:#111111;--blue-dark:#111111;--tint:#FFF1B8;--ink:#0B0B0B;--amber:#FFC400;--amber-soft:#FFF6D6;--surface:#F7F9FC;--line:#E4E9F0;--muted:#5B6472}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--ink);font-size:17px;line-height:1.6;background:#dfe5ee}
@@ -218,3 +218,57 @@ a{color:var(--blue)}
 #audio .display{font-size:32pt}
 #portfolio2 .case__img,#portfolio .case__img{height:54mm}
 #portfolio2 .case,#portfolio .case{margin-bottom:6mm;padding-bottom:6mm}
+
+/* ===== v3: black & yellow premium ===== */
+body{background:#2a2a2a}
+.page{box-shadow:0 20px 60px rgba(0,0,0,.35)}
+.page:before{content:"";position:absolute;top:0;left:16mm;width:22mm;height:3.2mm;background:var(--amber)}
+.cover:before,.back:before{display:none}
+.page--dark{background:#0B0B0B}
+.page--dark .method div,.page--dark .cards3 div{background:#161616}
+.cover{background:#0B0B0B}
+.cover__img{height:175mm;background:url("../img/p-cover.jpg") center 40%/cover no-repeat}
+.cover__img:after{background:linear-gradient(180deg,rgba(0,0,0,.25) 0%,rgba(0,0,0,.2) 45%,#0B0B0B 100%)}
+.cover__body{margin-top:-52mm}
+.cover__title{font-size:46pt;line-height:1.02;text-transform:uppercase;letter-spacing:-.03em}
+.cover__year{border-radius:0;letter-spacing:.14em;text-transform:uppercase;font-size:9pt}
+.cover__sub{color:#cfcfcf}
+.cover__bar{background:var(--amber);color:#111}
+.cover__bar b{color:#111;opacity:.65}
+.cover__logo,.back__logo{background:#fff;border-radius:0;padding:3mm 5mm}
+.lockup{display:inline-flex;align-items:center;gap:3mm}
+.lockup img{height:12mm;width:auto}
+.lockup span{font-family:Manrope,sans-serif;font-weight:800;font-size:17pt;letter-spacing:.04em;color:#0B0B0B;line-height:1}
+.lockup small{display:block;font-size:6.6pt;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:#555;margin-top:1mm}
+.display{text-transform:uppercase;letter-spacing:-.025em}
+.page:not(.page--dark) .display span{color:#0B0B0B;background:linear-gradient(transparent 62%,var(--amber) 62%)}
+.kicker{color:#0B0B0B}
+.eyebrow-num{color:#0B0B0B}
+.eyebrow-num:before{background:var(--amber);height:3px}
+.page--dark .eyebrow-num{color:var(--amber)}
+.stats{background:#0B0B0B;border-radius:0}
+.stats .stat__l{color:#bdbdbd}
+.why div{background:#0B0B0B;border-radius:0;border-top:3px solid var(--amber)}
+.why p{color:#c9c9c9}
+.mission{border-left-color:var(--amber);color:#0B0B0B;background:#F6F6F6}
+.mission span{color:#0B0B0B!important}
+.value{border-radius:0;border-top:3px solid var(--amber)}
+.svc,.proj,.deliv div,.glance div,.sector,.worship div,.photo,.case__img,.feature__hero,.pillar__media,.callout,.hire div,.brand{border-radius:0}
+.feature__hero img,.photo img{filter:saturate(1.05) contrast(1.05)}
+.sector{border-left:3px solid var(--amber)}
+.steps li{border-top-color:var(--amber)}
+.steps li:before{background:#0B0B0B;color:var(--amber);border-radius:0}
+.svc h3,.case .scope,.glance b,.deliv b,.sector b,.worship div{color:#0B0B0B}
+.case .scope{background:var(--amber);display:inline-block;padding:1mm 2.5mm}
+.portfolio-head{border-bottom:3px solid var(--amber)}
+.portfolio-head h2 span{color:#0B0B0B}
+.toc li span{color:#0B0B0B;background:var(--amber);padding:0 2mm}
+.cta{border-radius:0}
+.back{background:#0B0B0B}
+.back h2{text-transform:uppercase}
+.page__foot b{color:#0B0B0B}
+.page--dark .page__foot b,.back .page__foot b{color:var(--amber)}
+.pillar__media .tag{border-radius:0}
+.facts th{color:#666}
+.todo{border-radius:0}
+.toolbar a{color:var(--amber)}

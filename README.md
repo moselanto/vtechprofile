@@ -25,4 +25,4 @@ python3 build/build-pdf.py
 Or open `index.html` in Chrome > Print > Save as PDF (A4, margins None, Background graphics on).
 
 ## Brand
-Taken from `moselanto/vtechaudio` `vtech-av/docs/STYLE-GUIDE.md`: blue `#0A4FA3`, dark `#083C7C`, amber `#FFB400` (with `#111` text), ink `#111111`, surface `#F7F9FC`; Manrope headings, Inter body.
+Taken from `moselanto/vtechaudio` `vtech-av/docs/STYLE-GUIDE.md`: v3 black & yellow: ink `#0B0B0B`, yellow `#FFC400` (always with black text), white; Manrope headings, Inter body; VTECH purple symbol `assets/img/vtech-symbol.png`. Images prefixed `p-` are AI-generated illustrations, not project photos.
