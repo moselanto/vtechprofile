@@ -1,5 +1,10 @@
 # Changelog
 
+## 7.1.1 - 14 Nov 2026
+- Removed 47 image files in assets/img that index.html and profile.css no longer reference (old theme photos, ungraded and unused graded copies, old black-and-yellow logo and VTECH symbol files). Kept the official stacked logos (logo-stacked-black/white/purple) and the unused real project photos pcea-1 and pcea-4 as source assets. PDF rebuilt and all 17 pages checked.
+- Owner confirmed VTECH supplies all 15 brands on the brands page.
+- Added .nojekyll and GitHub Pages instructions in README so index.html can be published at https://moselanto.github.io/vtechprofile/.
+
 ## 7.1.0 - 13 Nov 2026
 - Page 5 (The VTECH difference) redesigned: full-height purple panel over the engineers photo with heading, short intro and "1 Team / 1 Quote / 1 Contact"; the 8 steps are now numbered white cards in two phases, Plan (Survey, Design, Specify, Quote) and Deliver (Install, Commission, Train, Support). Larger type.
 - Docs brought up to date (README, AGENTS, FACTS-NEEDED) to match the 17-page purple v7 profile and the owner's confirmation of the featured projects.

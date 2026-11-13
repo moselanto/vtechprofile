@@ -3,7 +3,7 @@
 The profile (v7.1) has no visible placeholders. These items are still worth confirming:
 
 ## Brands (page 16)
-- [ ] Confirm VTECH supplies or installs each of the 15 brands shown (logos were taken from the Sound Creations profile at the owner's request)
+- [x] VTECH supplies all 15 brands shown (confirmed by the owner, 14 Nov 2026)
 - [ ] Identify the "Aid" logo (brand name and website)
 
 ## Projects (pages 11-15)

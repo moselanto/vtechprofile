@@ -1,6 +1,6 @@
 # VTECH Company Profile
 
-Company profile for **VTECH Audio Visual Solutions / VTech Audio Kenya** (https://vtechaudio.co.ke), built by Pimofy Digital. Current version: **7.1.0** (see `CHANGELOG.md`).
+Company profile for **VTECH Audio Visual Solutions / VTech Audio Kenya** (https://vtechaudio.co.ke), built by Pimofy Digital. Current version: **7.1.1** (see `CHANGELOG.md`).
 
 One source, two outputs:
 - **Web profile:** `index.html` (responsive; works on GitHub Pages, a subdomain such as profile.vtechaudio.co.ke, or any static host).
@@ -15,13 +15,16 @@ One source, two outputs:
 | `index.html` | All profile content |
 | `assets/css/profile.css` | Brand styles: screen layout + `@media print` 16:9 pages |
 | `assets/fonts/` | Manrope + Inter (self-hosted, same as the website) |
-| `assets/img/logo-*.png` | Official VTech Audio Kenya logos (stacked and symbol; black, white, purple) |
+| `assets/img/logo-*.png` | Official VTech Audio Kenya logos (symbol used in the profile; stacked versions kept as source files) |
 | `assets/img/g/` | Purple-graded photos used in the profile |
 | `assets/img/projects/` | Real VTECH project photos (owner confirmed authority to use) |
 | `assets/img/brands/` | Manufacturer logos for the brands page |
 | `build/build-pdf.py` | Rebuilds the PDF with WeasyPrint |
 | `docs/FACTS-NEEDED.md` | Items still worth confirming with VTECH |
 | `AGENTS.md` | Rules for anyone (human or AI) editing this repo |
+
+## Live web page (GitHub Pages)
+Published from `main` / root at **https://moselanto.github.io/vtechprofile/** once Pages is switched on (Settings > Pages > Deploy from a branch > `main` / `/ (root)`). The "Download PDF" button links to `dist/VTECH-Company-Profile.pdf`, so rebuild and commit the PDF with every change. `.nojekyll` makes GitHub serve the files as they are.
 
 ## Build the PDF
 ```
