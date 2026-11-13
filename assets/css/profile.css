@@ -188,3 +188,7 @@ img{display:block;max-width:100%}
 .bgrid{grid-template-columns:repeat(5,1fr);gap:3.5mm;margin-top:6mm}
 .bgrid div{height:24mm;padding:4mm 6mm;border-bottom:3px solid var(--p)}
 .bgrid div img{max-height:15mm;max-width:100%;width:auto;object-fit:contain}
+
+/* v7 logo without background */
+.brand{background:none!important;padding:0!important}
+.brand img{height:11mm;width:auto}
