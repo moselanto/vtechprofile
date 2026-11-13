@@ -4,7 +4,7 @@ Company profile for **VTECH Audio Visual Solutions** (https://vtechaudio.co.ke),
 
 One source, two outputs:
 - **Web profile:** `index.html` (responsive; works on GitHub Pages, a subdomain such as profile.vtechaudio.co.ke, or any static host).
-- **Printable PDF (A4, 17 pages):** `dist/VTECH-Company-Profile.pdf`, generated from the same `index.html` with print CSS.
+- **Printable PDF (landscape 16:9, 16 pages):** `dist/VTECH-Company-Profile.pdf`, generated from the same `index.html` with print CSS.
 
 ## Structure
 | Path | What |

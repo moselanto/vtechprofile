@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.0.0 - 13 Nov 2026
+- Rebuilt as a landscape 16:9 presentation-style profile (16 pages, 338.67 x 190.5 mm), benchmarked against peer AV profiles: full-bleed photography, dark black & yellow design, chevron accents, logo lockup on every page.
+- New sections: "This is VTECH" cover, Who we are, Mission + four promises, What we do, The VTECH difference (8-step method), three solution pillars, Our expertise in action, Industries we serve, Featured project, two Case studies pages, Houses of worship, Brands + corporate details, closing contact page.
+- Added illustrative images (engineers, acoustic measurement, worship, Nairobi skyline). Images prefixed p- are AI-generated illustrations, not project photos.
+
 ## 3.0.0 - 13 Nov 2026
 - Black & yellow premium redesign (uppercase display headings, yellow highlight bars, square-edged cards, black stat and "why" blocks, yellow cover contact bar).
 - New VTECH symbol (premium gradient) as a logo lockup on cover and back cover.
