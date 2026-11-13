@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.1.0 - 13 Nov 2026
+- Page 5 (The VTECH difference) redesigned: full-height purple panel over the engineers photo with heading, short intro and "1 Team / 1 Quote / 1 Contact"; the 8 steps are now numbered white cards in two phases, Plan (Survey, Design, Specify, Quote) and Deliver (Install, Commission, Train, Support). Larger type.
+- Docs brought up to date (README, AGENTS, FACTS-NEEDED) to match the 17-page purple v7 profile and the owner's confirmation of the featured projects.
+
 ## 7.0.0 - 13 Nov 2026
 - Owner confirmed these are VTECH projects and that VTECH has authority to use the photos: Featured Project 01 West Nairobi School, 02 CITAM Buruburu, 03 Sarit Expo Centre; case studies PCEA Kahawa Farmers Church, All Saints Cathedral, COVO NBO. Photos in assets/img/projects/.
 - Removed the county assembly featured project, the generic case studies and all "to be supplied" placeholders.
