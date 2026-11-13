@@ -181,3 +181,10 @@ img{display:block;max-width:100%}
 .bgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:4mm;margin-top:7mm}
 .bgrid div{background:#fff;color:#0A0A0A;height:30mm;display:flex;align-items:center;justify-content:center;text-align:center;font:800 17pt Manrope,sans-serif;letter-spacing:-.01em;border-bottom:3px solid var(--p)}
 .bgrid div small{display:block;font:600 8pt Inter,sans-serif;color:#777;letter-spacing:.1em;text-transform:uppercase;margin-top:1mm}
+
+/* v6 official logos */
+.brand{padding:1.6mm 3mm;background:#fff}
+.brand img{height:10mm;width:auto}
+.bgrid{grid-template-columns:repeat(5,1fr);gap:3.5mm;margin-top:6mm}
+.bgrid div{height:24mm;padding:4mm 6mm;border-bottom:3px solid var(--p)}
+.bgrid div img{max-height:15mm;max-width:100%;width:auto;object-fit:contain}

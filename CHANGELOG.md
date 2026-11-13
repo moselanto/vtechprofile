@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.0.0 - 13 Nov 2026
+- Official VTech Audio Kenya logos: stacked black logo on a white tile on every page; large white stacked logo on cover and closing page (white and purple versions generated from the one-colour file).
+- Brands page now shows 15 manufacturer logos: dB Technologies, NEXO, Bose, Shure, Allen & Heath, Midas, Biamp, FANE, Behringer, ChamSys, Sommer Cable, Rockfon, Barrisol, Asona, Aid.
+
 ## 5.0.0 - 13 Nov 2026
 - VTECH purple brand: black, purple (logo #80008A, gradient #A51DB6 to #4A0352) and white; purple gradient pills, buttons, chevrons and page edge; logo on a white chip on every page.
 - All photos colour-graded with a consistent purple tone (assets/img/g/).
