@@ -7,3 +7,4 @@
 5. Keep web and PDF in one source (`index.html`). After any content or style change, rebuild `dist/VTECH-Company-Profile.pdf`, check every A4 page for overflow, and commit both together.
 6. Remove the `todo` placeholders only when the real fact is supplied; before a client-facing release, no `todo` may remain (`grep -n todo index.html`).
 7. Record each change in `CHANGELOG.md`.
+8. Peer company profiles may be used for layout ideas only. Never copy their wording, projects, case studies or photos into this profile.
