@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.0.0 - 13 Nov 2026
+- VTECH purple brand: black, purple (logo #80008A, gradient #A51DB6 to #4A0352) and white; purple gradient pills, buttons, chevrons and page edge; logo on a white chip on every page.
+- All photos colour-graded with a consistent purple tone (assets/img/g/).
+- Larger, more readable type throughout.
+- Redesigned pages 3 (mission panel + four promises), 4 (What we do photo tiles + service chips) and 5 (8-step timeline).
+- Corporate details page removed; page 15 is now a brands page (dB Technologies, NEXO, Bose Professional, Shure, Allen & Heath, Midas, FANE, Yamaha) as requested by the owner.
+
 ## 4.0.0 - 13 Nov 2026
 - Rebuilt as a landscape 16:9 presentation-style profile (16 pages, 338.67 x 190.5 mm), benchmarked against peer AV profiles: full-bleed photography, dark black & yellow design, chevron accents, logo lockup on every page.
 - New sections: "This is VTECH" cover, Who we are, Mission + four promises, What we do, The VTECH difference (8-step method), three solution pillars, Our expertise in action, Industries we serve, Featured project, two Case studies pages, Houses of worship, Brands + corporate details, closing contact page.
