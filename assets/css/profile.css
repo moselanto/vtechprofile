@@ -1,0 +1,133 @@
+/* VTECH Company Profile - one source for web and print (A4). Brand: vtechaudio.co.ke STYLE-GUIDE */
+@font-face{font-family:"Manrope";src:url("../fonts/manrope-var.woff2") format("woff2");font-weight:200 800;font-display:swap}
+@font-face{font-family:"Inter";src:url("../fonts/inter-var.woff2") format("woff2");font-weight:100 900;font-display:swap}
+:root{--blue:#0A4FA3;--blue-dark:#083C7C;--tint:#E7F0FA;--ink:#111111;--amber:#FFB400;--amber-soft:#FFF4D6;--surface:#F7F9FC;--line:#E4E9F0;--muted:#5B6472}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--ink);font-size:17px;line-height:1.6;background:#dfe5ee}
+h1,h2,h3,h4{font-family:Manrope,Arial,sans-serif;letter-spacing:-.02em;line-height:1.15;margin:0 0 .5em}
+p{margin:0 0 .8em}
+img{max-width:100%;display:block}
+a{color:var(--blue)}
+.kicker{font-family:Manrope,sans-serif;font-weight:800;font-size:.72em;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);margin-bottom:.6em}
+.kicker--amber{color:var(--amber)}
+.muted{color:var(--muted)}
+.lead{font-size:1.12em;color:var(--muted)}
+.todo{background:var(--amber-soft);border:1px dashed #d79a00;border-radius:8px;padding:.35em .6em;color:#5a4300;font-size:.82em}
+.toolbar{position:sticky;top:0;z-index:5;background:var(--ink);color:#fff;display:flex;gap:1rem;align-items:center;justify-content:space-between;padding:.6rem 1.2rem;font-size:.9rem}
+.toolbar a{color:var(--amber);font-weight:600;text-decoration:none}
+
+/* Page = one A4 sheet in print, one section on screen */
+.page{position:relative;background:#fff;width:210mm;min-height:297mm;margin:24px auto;padding:18mm 16mm 20mm;box-shadow:0 12px 40px rgba(10,79,163,.12);overflow:hidden}
+.page__foot{position:absolute;left:16mm;right:16mm;bottom:8mm;display:flex;justify-content:space-between;font-size:8.5pt;color:var(--muted);border-top:1px solid var(--line);padding-top:3mm}
+.page__foot b{color:var(--blue)}
+
+/* Cover */
+.cover{padding:0;background:var(--blue-dark);color:#fff}
+.cover__img{height:150mm;background:url("../img/hero.jpg") center/cover no-repeat;position:relative}
+.cover__img:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,60,124,.15) 0%,rgba(8,60,124,.95) 100%)}
+.cover__logo{position:absolute;top:14mm;left:16mm;z-index:2;background:#fff;border-radius:14px;padding:4mm 6mm}
+.cover__logo img{height:14mm;width:auto}
+.cover__body{padding:0 16mm;margin-top:-40mm;position:relative;z-index:2}
+.cover__title{font-size:44pt;font-weight:800;margin:0 0 4mm}
+.cover__title span{color:var(--amber)}
+.cover__sub{font-size:14pt;max-width:150mm;color:#dbe7f7}
+.cover__bar{position:absolute;left:0;right:0;bottom:0;background:var(--ink);padding:8mm 16mm;display:grid;grid-template-columns:repeat(3,1fr);gap:6mm;font-size:9.5pt;color:#cfd6e0}
+.cover__bar b{display:block;color:var(--amber);font-family:Manrope,sans-serif;font-size:8pt;letter-spacing:.12em;text-transform:uppercase;margin-bottom:1mm}
+.cover__year{display:inline-block;background:var(--amber);color:var(--ink);font-family:Manrope,sans-serif;font-weight:800;border-radius:999px;padding:1.5mm 5mm;font-size:10pt;margin-bottom:6mm}
+
+/* Stats */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:4mm;background:var(--blue);border-radius:14px;padding:7mm;color:#fff;margin:8mm 0}
+.stat__n{font-family:Manrope,sans-serif;font-weight:800;font-size:24pt;color:var(--amber);display:block;line-height:1.1}
+.stat__l{font-size:9pt;color:#dbe7f7}
+
+.split{display:grid;grid-template-columns:1.1fr .9fr;gap:9mm;align-items:start}
+.photo{border-radius:14px;overflow:hidden;height:72mm}
+.photo img{width:100%;height:100%;object-fit:cover}
+.checks{list-style:none;padding:0;margin:0}
+.checks li{padding-left:7mm;position:relative;margin-bottom:2mm;font-size:10.5pt}
+.checks li:before{content:"";position:absolute;left:0;top:2.2mm;width:3.2mm;height:3.2mm;border-radius:50%;background:var(--amber)}
+.mission{border-left:4px solid var(--amber);background:var(--surface);padding:6mm 7mm;border-radius:0 14px 14px 0;font-family:Manrope,sans-serif;font-size:13pt;font-weight:600;color:var(--blue-dark);margin:6mm 0}
+.values{display:grid;grid-template-columns:repeat(2,1fr);gap:5mm}
+.value{border:1px solid var(--line);border-radius:14px;padding:5mm}
+.value__n{font-family:Manrope,sans-serif;font-weight:800;color:var(--amber);font-size:14pt}
+.value h3{font-size:12pt;margin:1mm 0 1.5mm}
+.value p{font-size:9.5pt;color:var(--muted);margin:0}
+
+/* Services */
+.services{display:grid;grid-template-columns:repeat(2,1fr);gap:5mm}
+.svc{display:grid;grid-template-columns:30mm 1fr;gap:4mm;border:1px solid var(--line);border-radius:14px;overflow:hidden;align-items:stretch}
+.svc img{width:100%;height:100%;min-height:30mm;object-fit:cover}
+.svc div{padding:3.5mm 4mm 3.5mm 0}
+.svc h3{font-size:11pt;margin-bottom:1mm;color:var(--blue-dark)}
+.svc p{font-size:8.8pt;color:var(--muted);margin:0;line-height:1.45}
+
+/* Sectors & process */
+.sectors{display:grid;grid-template-columns:repeat(3,1fr);gap:3.5mm;margin-bottom:9mm}
+.sector{background:var(--surface);border-radius:12px;padding:4mm}
+.sector b{display:block;font-family:Manrope,sans-serif;color:var(--blue-dark);font-size:11pt}
+.sector span{font-size:8.8pt;color:var(--muted)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:4mm;counter-reset:s;list-style:none;padding:0;margin:0}
+.steps li{border-top:3px solid var(--blue);padding-top:4mm}
+.steps li:before{counter-increment:s;content:counter(s);display:inline-flex;align-items:center;justify-content:center;width:9mm;height:9mm;border-radius:50%;background:var(--tint);color:var(--blue);font-family:Manrope,sans-serif;font-weight:800;margin-bottom:2mm}
+.steps h3{font-size:11pt;margin-bottom:1mm}
+.steps p{font-size:9pt;color:var(--muted);margin:0}
+.why{display:grid;grid-template-columns:repeat(2,1fr);gap:4mm;margin-top:9mm}
+.why div{background:var(--blue);color:#fff;border-radius:14px;padding:5mm}
+.why h3{font-size:11.5pt;color:var(--amber);margin-bottom:1mm}
+.why p{font-size:9.2pt;color:#dbe7f7;margin:0}
+
+/* Projects */
+.projects{display:grid;grid-template-columns:repeat(3,1fr);gap:4.5mm}
+.proj{border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.proj img{height:30mm;width:100%;object-fit:cover}
+.proj div{padding:3.5mm}
+.proj span{font-size:7.5pt;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--blue)}
+.proj h3{font-size:10pt;margin:1mm 0}
+.proj p{font-size:8.5pt;color:var(--muted);margin:0;line-height:1.45}
+.brands{display:flex;gap:4mm;flex-wrap:wrap;margin:3mm 0 0}
+.brand{border:1px solid var(--line);border-radius:12px;padding:3mm 6mm;font-family:Manrope,sans-serif;font-weight:800;color:var(--blue-dark)}
+
+/* Company info */
+.facts{width:100%;border-collapse:collapse;font-size:9.8pt}
+.facts th{text-align:left;width:52mm;color:var(--muted);font-weight:600;padding:1.7mm 0;border-bottom:1px solid var(--line);vertical-align:top}
+.facts td{padding:1.7mm 0;border-bottom:1px solid var(--line)}
+.hire{display:grid;grid-template-columns:repeat(2,1fr);gap:4mm}
+.hire div{border:1px solid var(--line);border-radius:12px;padding:4mm}
+.hire h3{font-size:10.5pt;color:var(--blue-dark);margin-bottom:1mm}
+.hire p{font-size:8.8pt;color:var(--muted);margin:0}
+
+/* Back cover */
+.back{background:var(--ink);color:#fff;display:flex;flex-direction:column;justify-content:space-between}
+.back h2{font-size:30pt;color:#fff}
+.back h2 span{color:var(--amber)}
+.back__list{display:grid;grid-template-columns:repeat(2,1fr);gap:7mm;font-size:11pt}
+.back__list b{display:block;color:var(--amber);font-family:Manrope,sans-serif;font-size:8.5pt;letter-spacing:.12em;text-transform:uppercase;margin-bottom:1mm}
+.back a{color:#fff;text-decoration:none}
+.back__logo{background:#fff;border-radius:14px;padding:4mm 6mm;display:inline-block}
+.back__logo img{height:13mm;width:auto}
+.cta{display:inline-block;background:var(--amber);color:var(--ink)!important;font-family:Manrope,sans-serif;font-weight:800;border-radius:12px;padding:4mm 7mm;margin-top:6mm}
+
+/* Screen: responsive below A4 width */
+@media screen and (max-width:820px){
+ body{background:#fff;font-size:16px}
+ .page{width:auto;min-height:0;margin:0;box-shadow:none;padding:2.2rem 1.2rem 3.5rem;border-bottom:8px solid var(--surface)}
+ .page__foot{position:static;margin-top:2rem}
+ .cover{padding:0}.cover__img{height:62vw}.cover__body{margin-top:-18vw;padding:0 1.2rem 1.5rem}
+ .cover__title{font-size:2.4rem}.cover__bar{position:static;grid-template-columns:1fr}
+ .split,.values,.services,.why,.hire,.back__list{grid-template-columns:1fr}
+ .stats{grid-template-columns:repeat(2,1fr)}.sectors{grid-template-columns:repeat(2,1fr)}
+ .steps{grid-template-columns:1fr 1fr}.projects{grid-template-columns:1fr}
+ .back{min-height:0;gap:2rem}
+}
+
+/* Print / PDF */
+@page{size:A4;margin:0}
+@media print{
+ body{background:#fff}
+ .toolbar,.no-print{display:none!important}
+ .page{margin:0;box-shadow:none;width:210mm;height:297mm;min-height:0;page-break-after:always;break-after:page}
+ .page:last-child{page-break-after:auto;break-after:auto}
+ .todo{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+ *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
