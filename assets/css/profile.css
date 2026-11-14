@@ -235,3 +235,27 @@ img{display:block;max-width:100%}
 
 .dn{color:#80008A!important;background:none!important;-webkit-text-stroke:0!important;font-size:26pt!important}
 .dphase b{white-space:nowrap}
+
+/* v7.1.2 phone layout (web page only; print/PDF unaffected) */
+@media screen and (max-width:760px){
+ .web{display:none}
+ .pn{right:6mm}
+ .cols{grid-template-columns:1fr!important;gap:4mm}
+ .mission{position:relative;left:auto;top:auto;bottom:auto;width:auto;margin:-24mm -6mm 8mm;padding:14mm 6mm 10mm}
+ .mission h2{font-size:20pt}
+ .promises{position:static;left:auto;right:auto;top:auto}
+ .fp{position:relative;top:auto;bottom:auto;right:auto;width:auto;display:grid;grid-template-rows:auto auto;margin:-24mm -6mm 6mm;gap:2mm}
+ .fp .main img{height:62vw}
+ .fp .th img{height:40vw}
+ .fpc{width:auto}
+ .fpc .h2{font-size:22pt}
+ .csr{grid-template-columns:1fr;gap:3mm}
+ .csr p{font-size:10.5pt}
+ .tech{columns:1!important}
+ .meta{grid-template-columns:1fr 1fr}
+ .bgrid{grid-template-columns:repeat(3,1fr);gap:2.5mm}
+ .bgrid div{height:17mm;padding:2mm 3mm}
+ .bgrid div img{max-height:10mm}
+ .dgrid{grid-template-columns:1fr 1fr}
+ .h2{font-size:22pt}
+}

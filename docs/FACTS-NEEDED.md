@@ -4,7 +4,7 @@ The profile (v7.1) has no visible placeholders. These items are still worth conf
 
 ## Brands (page 16)
 - [x] VTECH supplies all 15 brands shown (confirmed by the owner, 14 Nov 2026)
-- [ ] Identify the "Aid" logo (brand name and website)
+- [x] "Aid" logo is **Aid Acoustics** (Aid Pte Ltd, Singapore, https://aid.co): acoustic wall panels, ceiling tiles, baffles and stretch-fabric systems; Middle East office in Dubai. Optional: swap the small Sound Creations crop for an official Aid logo file from aid.co
 
 ## Projects (pages 11-15)
 - [ ] Keep Sound Creations' written permission for the project photos on file

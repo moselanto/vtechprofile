@@ -1,5 +1,11 @@
 # Changelog
 
+## 7.1.2 - 14 Nov 2026
+- Deleted the last 5 unused images: logo-stacked-black/purple/white.png and projects/pcea-1.jpg, pcea-4.jpg. PDF rebuilt and all 17 pages checked.
+- Phone layout fixed for the web page (max-width 760px): mission page, two-column headers, featured project pages (photo on top, challenge/solution/result stacked) and brands grid (3 per row, readable logos) now stack properly; footer URL hidden on phones so it no longer overlaps the page number. Print/PDF unchanged.
+- "Aid" logo identified as Aid Acoustics (Aid Pte Ltd, Singapore; aid.co), an acoustic panels and ceiling systems maker with a Dubai office.
+- GitHub Pages live at https://moselanto.github.io/vtechprofile/ (checked: page, all images and the Download PDF button load).
+
 ## 7.1.1 - 14 Nov 2026
 - Removed 47 image files in assets/img that index.html and profile.css no longer reference (old theme photos, ungraded and unused graded copies, old black-and-yellow logo and VTECH symbol files). Kept the official stacked logos (logo-stacked-black/white/purple) and the unused real project photos pcea-1 and pcea-4 as source assets. PDF rebuilt and all 17 pages checked.
 - Owner confirmed VTECH supplies all 15 brands on the brands page.
