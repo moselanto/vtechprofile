@@ -1,6 +1,6 @@
 # VTECH Company Profile
 
-Company profile for **VTECH Audio Visual Solutions / VTech Audio Kenya** (https://vtechaudio.co.ke), built by Pimofy Digital. Current version: **7.1.2** (see `CHANGELOG.md`).
+Company profile for **VTECH Audio Visual Solutions / VTech Audio Kenya** (https://vtechaudio.co.ke), built by Pimofy Digital. Current version: **7.1.3** (see `CHANGELOG.md`).
 
 One source, two outputs:
 - **Web profile:** `index.html` (responsive; works on GitHub Pages, a subdomain such as profile.vtechaudio.co.ke, or any static host).

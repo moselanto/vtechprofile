@@ -1,5 +1,8 @@
 # Changelog
 
+## 7.1.3 - 18 Nov 2026
+- Removed the P.O. Box from the office address on the contact page (owner request). Office now reads: Ground Floor, Mpaka Plaza, Mpaka Road, Westlands, Nairobi. AGENTS.md contact rules updated to match. PDF rebuilt.
+
 ## 7.1.2 - 14 Nov 2026
 - Deleted the last 5 unused images: logo-stacked-black/purple/white.png and projects/pcea-1.jpg, pcea-4.jpg. PDF rebuilt and all 17 pages checked.
 - Phone layout fixed for the web page (max-width 760px): mission page, two-column headers, featured project pages (photo on top, challenge/solution/result stacked) and brands grid (3 per row, readable logos) now stack properly; footer URL hidden on phones so it no longer overlaps the page number. Print/PDF unchanged.
